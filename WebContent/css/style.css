@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+.backgroundImg {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8b+0,cdeb8b+100;Green+Flat+%235 */
+background: #cdeb8b; /* Old browsers */
+background: -moz-linear-gradient(top,  #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #cdeb8b 0%,#cdeb8b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', endColorstr='#cdeb8b',GradientType=0 ); /* IE6-9 */
+}
+
+.homeBG {
+  height:/*@title-height*/300px/*@*/;
+  background-image:/*@title-background-image*/url("./images/homeBG.jpg")/*@*/;
+  background-position:/*@title-background-image-position*/top/*@*/;
+  background-color:/*@title-background-color*/#000000/*@*/;
+  background-size: cover;
+  background-repeat: /*@title-background-image-repeat=*/repeat/*@*/;
+  font-family:/*@title-font-family*/"NanumBarunGothic"/*@*/;
+  color:/*@title-color*/#FFFFFF/*@*/;
+}
+.homeBG .homeName{
+  font-size:/*@title-font-size*/1.5em/*@*/;  
+}
+.homeBG .homeDesc{
+  font-size:1em;  
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  src: url("./images/NanumBarunGothic.eot");
+  src: url("./images/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("./images/NanumBarunGothic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@media(min-width:768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media(min-width:1200px) {
+  .container {
+    width: /*@post-width:*/820px/*@*/;
+  }
+}
+@media(min-width:1400px) {
+  .container {
+    width: /*@post-width:+200*/1020px/*@*/;
+  }
+}
+
+article .titleWrap h2 {
+  color:/*@post-title-color*/#000000/*@*/;
+  font-family:/*@post-title-font-family*/"NanumBarunGothic"/*@*/;
+  font-size:/*@post-title-font-size*/2em/*@*/;
+}
+article .article{
+  color:/*@post-body-color*/#000000/*@*/;
+  font-family:/*@post-body-font-family*/"NanumBarunGothic"/*@*/;
+  font-size:/*@post-body-font-size*/1em/*@*/;
+}
+/*드로워 배경이미지*/
+#drawer #drawer_profile {
+  background: url("./images/drawerBG.jpg");
+}
+/*color customize*/
+/*blue*/
+header {
+  background: #3F51B5;
+}
+header #search-box {
+  background: #3F51B5;
+}
+header #search-box input {
+  background: #3F51B5;
+}
+/*lightblue*/
+#search-resultWrap .moreResult a {
+  color: #4285f4;
+}
+#searchList .listHeader {
+  border-bottom: #4285f4 solid 2px;
+}
+article .article a {
+  color: #4285f4;
+}
+article .article h1, article .article h2, article .article h3, article .article h4, article .article h5, article .article h6 {
+  border-left: #4285f4 solid 5px;
+  border-bottom: #4285f4 solid 2px;
+}
+article .article .moreless_content {
+  border: #4285f4 dotted 1px;
+}
+.comments-box .tabs {
+  background: #4285f4;
+}
+.comments-box .tabs li {
+  border-bottom: #4285f4 solid 2px;
+}
+#guestbook form .write textarea:focus, .comments-box form .write textarea:focus {
+  border-bottom: #4285f4 solid 2px;
+}
+#guestbook form .write button.submit, .comments-box form .write button.submit {
+  color: #4285f4;
+}
+#paging a {
+  color: #4285f4;
+}
+aside .tabs li.active {
+  border-bottom: #4285f4 solid 2px;
+}
+footer {
+  background: #4285f4;
+}
+/*pink*/
+#guestbook form .write .writerInfo label, .comments-box form .write .writerInfo label {
+  color: #ff4081;
+}
+#guestbook form .write .writerInfo input[type="text"]:focus, #guestbook form .write .writerInfo input[type="password"]:focus, .comments-box form .write .writerInfo input[type="text"]:focus, .comments-box form .write .writerInfo input[type="password"]:focus {
+  border-bottom: #ff4081 solid 2px;
+}
+#toTop {
+  background: #ff4081;
+}
+/*yellow*/
+.comments-box li.active {
+  border-bottom: #FFF176 solid 2px;
+}
+
+/*user css*/
+.another_category {
+  padding: 0!important;
+  margin: 0!important;
+  border: none!important;
+}
+.another_category h4 {
+  border: none!important;
+  text-indent: 0!important;
+}
+.another_category a{
+  text-decoration: none!important;
+}
